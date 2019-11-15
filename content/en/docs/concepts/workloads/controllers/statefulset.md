@@ -55,7 +55,7 @@ The example below demonstrates the components of a StatefulSet.
 * The StatefulSet, named web, has a Spec that indicates that 3 replicas of the nginx container will be launched in unique Pods.
 * The volumeClaimTemplates will provide stable storage using [PersistentVolumes](/docs/concepts/storage/persistent-volumes/) provisioned by a PersistentVolume Provisioner.
 
-```yaml
+```
 apiVersion: v1
 kind: Service
 metadata:
